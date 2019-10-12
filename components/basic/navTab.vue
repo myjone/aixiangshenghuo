@@ -14,7 +14,7 @@
 			<scroll-view scroll-x="true" class="scrollX" scroll-with-animation :scroll-into-view='toView'>
 				<view class="langTabTitle" v-for="(x,y) in tabArray" :data-index='y' :key="y" :id="'id'+y" @click="langChangeTab(y)"
 				 :class="y===currentIndex?'tabActive':''">{{x.name}}</view>
-				<view class="uderlineBox" :style='"transform:translateX("+moveLeft+"px);width:"+langTabWidth+"px"'>
+				<view class="uderlineBox" :style='"transform:translateX("+moveLeft+"px);width:"+langTabWidth+"px"' style="z-index: -1;">
 					<view class="underline"></view>
 				</view>
 			</scroll-view>
@@ -95,7 +95,6 @@
 	.navTabBox {
 		width: 100%;
 		height: 88upx;
-
 		.shortTab {
 			position: relative;
 			width: 100%;
@@ -104,14 +103,12 @@
 			justify-content: center;
 			font-size: 30upx;
 			color: $uni-color-tabarColor;
-
 			.tabTitle {
 				flex: 1;
 				display: flex;
 				justify-content: center;
 				align-items: center;
 				z-index: 1;
-
 				&.tabActive {
 					font-size: 40upx;
 					color: $uni-color-tabarColor-active;
@@ -127,7 +124,6 @@
 				align-items: center;
 				justify-content: center;
 				transition: .35s;
-
 				.underline {
 					width: 100upx;
 					height: 20upx;
@@ -141,7 +137,6 @@
 		.langTab {
 			width: 100%;
 			height: 88upx;
-
 			.scrollX {
 				width: 100%;
 				display: flex;
@@ -150,13 +145,13 @@
 				position: relative;
 				font-size: 30upx;
 				color: $uni-color-tabarColor;
-
 				.langTabTitle {
 					display: inline-block;
 					width: 20vw;
 					line-height: 88upx;
 					text-align: center;
 					height: 88upx;
+					z-index: 1;
 					&.tabActive {
 						font-size: 40upx;
 						color: $uni-color-tabarColor-active;
@@ -171,7 +166,6 @@
 					justify-content: center;
 					transition: .35s;
 					top: 60upx;
-					z-index: 1;
 					.underline {
 						width: 80%;
 						height: 20upx;

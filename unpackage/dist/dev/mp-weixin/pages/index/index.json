@@ -1,6 +1,10 @@
 {
+  "navigationStyle": "custom",
+  "navigationBarTextStyle": "white",
   "navigationBarTitleText": "爱享生活",
   "usingComponents": {
-    "nav-tab": "/components/basic/navTab"
+    "nav-tab": "/components/basic/navTab",
+    "nav-bar": "/components/basic/navbar/navbar",
+    "dn-icon": "/components/dn-icon/dn-icon"
   }
 }

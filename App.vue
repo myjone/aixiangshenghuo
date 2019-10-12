@@ -20,4 +20,7 @@
 	.wrap{
 		width:100%;
 	}
+	view{
+		box-sizing:border-box;
+	}
 </style>

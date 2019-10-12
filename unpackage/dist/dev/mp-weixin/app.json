@@ -1,13 +1,48 @@
 {
   "pages": [
-    "pages/index/index"
+    "pages/index/index",
+    "pages/index/circle",
+    "pages/index/search",
+    "pages/index/user"
   ],
   "subPackages": [],
   "window": {
     "navigationBarTextStyle": "black",
     "navigationBarTitleText": "爱享生活",
     "navigationBarBackgroundColor": "white",
-    "backgroundColor": "#F8F8F8"
+    "backgroundColor": "#f6f6f6"
+  },
+  "tabBar": {
+    "borderStyle": "black",
+    "backgroundColor": "#fff",
+    "color": "#666",
+    "selectedColor": "#000",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/image/tabbar/index.png",
+        "selectedIconPath": "static/image/tabbar/indexActive.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/index/search",
+        "iconPath": "static/image/tabbar/search.png",
+        "selectedIconPath": "static/image/tabbar/searchActive.png",
+        "text": "搜索"
+      },
+      {
+        "pagePath": "pages/index/circle",
+        "iconPath": "static/image/tabbar/circle.png",
+        "selectedIconPath": "static/image/tabbar/circleActive.png",
+        "text": "圈子"
+      },
+      {
+        "pagePath": "pages/index/user",
+        "iconPath": "static/image/tabbar/user.png",
+        "selectedIconPath": "static/image/tabbar/userActive.png",
+        "text": "个人中心"
+      }
+    ]
   },
   "usingComponents": {}
 }

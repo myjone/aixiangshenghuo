@@ -117,6 +117,7 @@
         line-height: 88rpx;
         text-align: center;
         height: 88rpx;
+        z-index: 1;
 }
 .navTabBox .langTab .scrollX .langTabTitle.tabActive.data-v-a7e677ea {
           font-size: 40rpx;
@@ -142,7 +143,6 @@
         -o-transition: .35s;
         transition: .35s;
         top: 60rpx;
-        z-index: 1;
 }
 .navTabBox .langTab .scrollX .uderlineBox .underline.data-v-a7e677ea {
           width: 80%;

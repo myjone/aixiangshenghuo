@@ -17,4 +17,8 @@
 .wrap{
 	width:100%;
 }
+view{
+	-webkit-box-sizing:border-box;
+	        box-sizing:border-box;
+}
 

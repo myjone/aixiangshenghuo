@@ -24,4 +24,28 @@
 /* 垂直间距 */
 /* 透明度 */
 /* 文章场景相关 */
+.wrap.data-v-595f8f09 {
+  width: 100%;
+}
+.navSearch.data-v-595f8f09 {
+  width: 500rpx;
+  background: #fff;
+  height: 30px;
+  padding: 0 15rpx;
+  border-radius: 15px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  font-size: 28rpx;
+  color: #333;
+}
 

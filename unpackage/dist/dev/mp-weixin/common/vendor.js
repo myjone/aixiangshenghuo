@@ -8400,7 +8400,7 @@ module.exports = {"_from":"@dcloudio/uni-stat@next","_id":"@dcloudio/uni-stat@2.
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = { "pages": { "pages/index/index": { "navigationBarTitleText": "爱享生活", "usingComponents": { "nav-tab": "/components/basic/navTab" } } }, "globalStyle": { "navigationBarTextStyle": "black", "navigationBarTitleText": "爱享生活", "navigationBarBackgroundColor": "white", "backgroundColor": "#F8F8F8" } };exports.default = _default;
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = { "pages": { "pages/index/index": { "navigationStyle": "custom", "navigationBarTextStyle": "white", "navigationBarTitleText": "爱享生活", "usingComponents": { "nav-tab": "/components/basic/navTab", "nav-bar": "/components/basic/navbar/navbar" } }, "pages/index/circle": { "navigationBarTitleText": "爱享生活圈", "usingComponents": {} }, "pages/index/search": { "navigationBarTitleText": "搜索", "usingComponents": {} }, "pages/index/user": { "navigationBarTitleText": "我的", "usingComponents": {} } }, "globalStyle": { "navigationBarTextStyle": "black", "navigationBarTitleText": "爱享生活", "navigationBarBackgroundColor": "white", "backgroundColor": "#f6f6f6" } };exports.default = _default;
 
 /***/ }),
 /* 8 */
