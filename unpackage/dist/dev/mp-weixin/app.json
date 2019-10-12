@@ -1,0 +1,13 @@
+{
+  "pages": [
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "爱享生活",
+    "navigationBarBackgroundColor": "white",
+    "backgroundColor": "#F8F8F8"
+  },
+  "usingComponents": {}
+}

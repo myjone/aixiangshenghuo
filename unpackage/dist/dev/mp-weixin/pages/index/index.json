@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "爱享生活",
+  "usingComponents": {
+    "nav-tab": "/components/basic/navTab"
+  }
+}

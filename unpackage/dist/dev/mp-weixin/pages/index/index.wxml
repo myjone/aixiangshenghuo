@@ -1,0 +1,1 @@
+<view class="content data-v-595f8f09"><nav-tab bind:changeTab="__e" vue-id="1" data-event-opts="{{[['^changeTab',[['changeTab']]]]}}" class="data-v-595f8f09" bind:__l="__l"></nav-tab></view>
